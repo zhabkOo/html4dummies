@@ -5,24 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Finest HTML5 place</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
     <h1>Съешь ещё этих мягких французских булок, да выпей же чаю</h1>
-    
     <nav>
-        <p><strong>MENU</strong></p>
+        <p class="menuheader"><strong>~ MENU ~</strong></p>
+        <br>
         <ul>
             <li><a href="page.html">My Page</a></li>
             <li><a href="http://google.com/" target="_blank">Google</a></li>
         </ul>
     </nav>
-    <br>
-    <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b> <i>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
+    <div class="content">
+        <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b> 
+            <i>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i></p>
     <br>
     <p><u>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</u> <del>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</del></p>
     <br>
-    <img alt="Notre-Dame de Paris" src="resources/notredame.jpg" width="400" height="400">
-    <br>
+    <img alt="Notre-Dame de Paris" src="resources/paris.png" width="400" height="400">
+    <form action="#">
+            <p>
+                <select>
+                    <option>Испания</option>
+                    <option>Германия</option>
+                    <option>Франция</option>
+                    <option>Голландия</option>
+                    <option>Великобритания</option>
+                </select>
+            </p>
+        </form>
+        <br>
+        <br>
     <table>
         <thead>  
             <tr><th colspan="3">Описание HTML5 тегов</th></tr>
@@ -35,5 +49,16 @@
              <tr><td>&lt;address&gt;</td><td>Определяет контактную информацию автора документа/статьи.</td><td>Блочный тег</td></tr>
         </tbody>  
     </table>    
+    </div>
+    <div class="video">
+        
+    <video width="300" height="300" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" autoplay poster="resources/poster.png" controls>
+        Sorry, your browser doesn't support embedded videos, 
+        but don't worry, you can <a href="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">download it</a>
+        and watch it with your favorite video player!
+      </video>
+    </div>
+    <hr>
+    <footer>Copyright &copy; Freem, 2019</footer>
 </body>
 </html>
